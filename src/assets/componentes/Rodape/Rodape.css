@@ -1,0 +1,117 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    background: #1b1b1b;
+    box-sizing: border-box;
+    padding: 80px; /* Adiciona espaçamento interno */
+}
+
+.contato {
+    padding: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.h2Rodape {
+    color: rgb(45, 188, 231);
+}
+
+.aRodape {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: white
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.textinho {
+    flex-direction: column;
+}
+
+.social-icon i {
+    font-size: 40px; 
+}
+
+.mapBox {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Limita a largura máxima */
+    height: 325px;
+    background: #fff;
+    margin-left: auto; /* Alinha a caixa do mapa à direita */
+    border-radius: 8px; /* Adiciona cantos arredondados */
+}
+
+.mapBox iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+/*Responsividade*/
+@media (max-width: 1262px) {
+    footer {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .mapBox {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        margin: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    #h1Rodape {
+        font-size: 2.5rem;
+    }
+
+    footer {
+        padding: 20px; 
+    }
+    .mapBox {
+        width: 100%;
+        height: 250px; 
+    }
+
+    .social-icon img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-icon p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    #h1Rodape {
+        font-size: 2.3rem;
+        text-align: center;
+    }
+
+    .mapBox {
+        width: 100%;
+        height: 200px; 
+    }
+}

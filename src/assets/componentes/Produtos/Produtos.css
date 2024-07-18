@@ -1,0 +1,95 @@
+.bannerProdutos {
+    background-image: url(/src/assets/ceu.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 8%;
+    padding-left: 5%;
+
+}
+
+span {
+    color: rgb(45, 188, 231);
+}
+    
+
+.h1Produtos, .h2Produtos, .pProdutos {
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    margin: 0;
+}
+
+.h1Produtos {
+    font-size: 3.5rem; /* Tamanho de fonte base para h1 */
+}
+
+.h2Produtos {
+    font-size: 4rem; /* Tamanho de fonte base para h2Produtos */
+}
+
+.pProdutos {
+    font-size: 1.8rem; /* Tamanho de fonte base para p */
+}
+
+@media (max-width: 1600px) {
+    .bannerProdutos {
+        padding-top: 5%;
+        padding-bottom: 25%;
+    }
+
+    .h1Produtos {
+        font-size: 2.2rem;
+    }
+
+    .h2Produtos {
+        font-size: 2.5rem;
+    }
+
+    .pProdutos {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .bannerProdutos {
+        height: 50vh;
+        padding-bottom: 40%;
+        padding-top: 15%;
+    }
+
+    .h1Produtos {
+        font-size: 1.8rem;
+    }
+
+    .h2Produtos {
+        font-size: 2rem;
+    }
+
+    .pProdutos {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .bannerProdutos {
+        height: auto;
+        padding-bottom: 50%;
+    }
+
+    .h1Produtos {
+        font-size: 1.6rem;
+    }
+
+    .h2Produtos {
+        font-size: 1.8rem;
+    }
+
+    .pProdutos {
+        font-size: 0.95rem;
+    }
+}

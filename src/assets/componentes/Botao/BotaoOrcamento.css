@@ -1,0 +1,34 @@
+.botao-azul {
+    background-color: #2e5ddf;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 22px;
+    transition: background-color 0.3s;
+    max-width: 208px;
+    margin-top: 1%;
+}
+
+.botao-azul:hover {
+    background-color: #0056b3;
+}
+
+
+
+@media (max-width: 1366px) {
+    .botao-azul {
+        font-size: 17px;
+        max-width: 180px;
+        margin-top: 3%;
+    }
+}
+
+@media (max-width: 480px) {
+    .botao-azul {
+        font-size: 15px;
+        max-width: 160px;
+        margin-top: 3%;
+    }
+}

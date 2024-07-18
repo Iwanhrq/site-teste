@@ -1,0 +1,15 @@
+.botao-fixo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366; /* Cor do WhatsApp */
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000; 
+}
+
+.botao-fixo:hover {
+    background-color: #128C7E;
+}
