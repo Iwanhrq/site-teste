@@ -6,7 +6,7 @@ export function Projetos() {
         <section id="projetos">
             <div className="row">
                 <div className="imgleft">
-                    <img src="https://github.com/Iwanhrq/site-teste/blob/main/public/ivan.png alt="Imagem de Ivan" />
+                    <img src="https://github.com/Iwanhrq/site-teste/blob/main/public/ivan.png" alt="Imagem de Ivan" />
                 </div>
                 <div className="right">
                     <div className="content">
