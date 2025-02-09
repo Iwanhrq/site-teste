@@ -15,8 +15,6 @@ function App() {
       <Produtos />
       <Projetos />
       <Servicos />
-      <Rodape />
-      <BotaoFixo />
     </>
   );
 }

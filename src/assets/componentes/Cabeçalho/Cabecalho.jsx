@@ -18,14 +18,12 @@ export function Cabecalho() {
         <header>
             <div className="container">
                 <nav>
-                    <div className="logo">
-                        <h2>Ivan Henrique</h2>
-                    </div>
+
                     <ul className={isOpen ? "nav-link active" : "nav-link"}>
-                        <li><Link to="#" spy={true} smooth={true} duration={500}>Home</Link></li>
-                        <li><Link to="servicos" spy={true} smooth={true} duration={500}>Produtos</Link></li>
-                        <li><Link to="#" spy={true} smooth={true} duration={500}>Serviços</Link></li>
-                        <li><Link to="rodape" spy={true} smooth={true} duration={500}>Contato</Link></li>
+                        <li><Link to="#" spy={true} smooth={true} duration={500}>HOME</Link></li>
+                        <li><Link to="projetos" spy={true} smooth={true} duration={500}>SOBRE MIM</Link></li>
+                        <li><Link to="servicos" spy={true} smooth={true} duration={500}>PORTFOLIO</Link></li>
+                        <li><Link to="rodape" spy={true} smooth={true} duration={500}>SERVIÇOS</Link></li>
                     </ul>
                     <div className="icon" onClick={toggleMenu}>
                         <FaBars />

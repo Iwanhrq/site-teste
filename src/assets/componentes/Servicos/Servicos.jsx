@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Servicos.css';
-import { BotaoOrcamento } from '../Botao/BotaoOrcamento';
 
 
 
@@ -8,56 +7,39 @@ const content = [
     
     {
         images: [
-            { src: 'https://inoxconceito.com.br/assets/2-72ae6a2e.webp', alt: 'Imagem 1' },
-            { src: 'https://inoxconceito.com.br/assets/3-55898bdc.webp', alt: 'Imagem 2' },
-            { src: 'https://inoxconceito.com.br/assets/1-565b648c.webp', alt: 'Imagem 3' }
+            { src: '/site-teste/fallen1.png', alt: 'Imagem 1' },
         ],
-        title: 'Guarda Corpo de Vidro',
+        title: 'Vivo Conecta',
         description: [
-            'Imagine uma vista deslumbrante, capturada em cada detalhe do seu espaço. Nosso serviço de guarda corpo em vidro para clientes de alto padrão e construtoras oferece não apenas segurança, mas uma experiência visual incomparável.',
-            'Com designs exclusivos e materiais de primeira linha, elevamos o conceito de elegância e modernidade. Deixe-nos moldar o seu ambiente com transparência e sofisticação, onde cada linha e cada brilho refletem o requinte que você merece.',
-            <BotaoOrcamento/>
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+        ]
+    },
+    {
+        images: [
+            { src: '/site-teste/fallen1.png', alt: 'Imagem 1' },
+        ],
+        title: 'Sorveteria Frosty',
+        description: [
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
 
         ]
     },
     {
         images: [
-            { src: 'https://inoxconceito.com.br/assets/1-4dbdea79.webp', alt: 'Imagem 4' },
-            { src: 'https://inoxconceito.com.br/assets/2-ee87a2fa.webp', alt: 'Imagem 5' },
-            { src: 'https://inoxconceito.com.br/assets/3-549e0c84.webp', alt: 'Imagem 6' }
+            { src: '/site-teste/fallen1.png', alt: 'Imagem 1' },
         ],
-        title: 'Guarda Corpo em Inox',
+        title: 'FalleN',
         description: [
-            'Conheça o novo padrão de luxo e segurança para o seu espaço. Nosso serviço de guarda-corpo em inox para clientes exigentes e construtoras oferece mais do que uma simples proteção - é um conjunto de estilo e sofisticação.',
-            'Com linhas impecáveis e um acabamento premium, elevamos o conceito de elegância. Deixe-nos moldar o seu ambiente com precisão e refinamento, onde cada detalhe reflete a excelência que você merece.',
-            <BotaoOrcamento/>
-
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
         ]
     },
     {
         images: [
-            { src: 'https://inoxconceito.com.br/assets/3-553224fe.webp', alt: 'Imagem 4' },
-            { src: 'https://inoxconceito.com.br/assets/1-bfb0e12a.webp', alt: 'Imagem 5' },
-            { src: 'https://inoxconceito.com.br/assets/2-71870d38.webp', alt: 'Imagem 6' }
+            { src: '/site-teste/fallen1.png', alt: 'Imagem 1' },
         ],
-        title: 'Corrimão em Inox',
+        title: 'Glauks',
         description: [
-            'Descubra a essência da elegância e da praticidade com nosso corrimão em inox. Mais do que uma simples estrutura de suporte a fusão perfeita entre funcionalidade e beleza.',
-            'Com acabamento impecável e durabilidade incomparável, elevamos o conceito de elegância moderna. Onde cada linha reflete o padrão que você busca para o seu espaço.',
-            <BotaoOrcamento/>
-        ]
-    },
-    {
-        images: [
-            { src: 'https://inoxconceito.com.br/assets/1-1526b49e.webp', alt: 'Imagem 4' },
-            { src: 'https://inoxconceito.com.br/assets/3-5daadb0e.webp', alt: 'Imagem 5' },
-            { src: 'https://inoxconceito.com.br/assets/2-5d23eb49.webp', alt: 'Imagem 6' }
-        ],
-        title: 'Box de Vidro',
-        description: [
-            'Descubra a essência da sofisticação e da funcionalidade com nossa Box de Banheiro de Vidro. Mais do que uma simples divisória, é a fusão perfeita entre elegância e praticidade. Com acabamento impecável e durabilidade incomparável, nossa box redefine o conceito de luxo moderno.',
-            'Onde cada detalhe reflete o padrão de excelência que você deseja para o seu ambiente. Transforme seu banheiro em um espaço de beleza e requinte com nossa Box de Vidro, projetada para oferecer uma experiência visual e funcional única.',
-            <BotaoOrcamento/>
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
         ]
     }
 ];
@@ -72,7 +54,7 @@ export function Servicos() {
     return (
         <section id="servicos">
             <div className="containerServicos">
-            <h1 className="h1Colorido" id="h1Servicos">Nossos <span>Serviços</span></h1>
+            <h1 className="h1Colorido" id="h1Servicos">PORTFOLIO</h1>
             <div className="menu">
                     {content.map((item, index) => (
                         <button 

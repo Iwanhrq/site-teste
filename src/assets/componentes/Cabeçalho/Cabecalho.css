@@ -1,7 +1,7 @@
 
 
 header {
-    background: #1b1b1b;
+    background: #111731;
     padding: 2rem 0;
 }
 
@@ -15,17 +15,12 @@ header {
 
 .container nav {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-end; 
+    margin-right: 20px;
 }
 
-.container nav .logo {
-    color: #ffffff;
-    font-size: 1.2rem;
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
 
-}
+
 
 .container .nav-link {
     display: flex;
